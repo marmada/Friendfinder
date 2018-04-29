@@ -12,11 +12,43 @@
 
     <!-- Font Awesome Glyphicons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
 
     <!-- Chosen -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+    <style>
+        body {
+            background-image: url(assets/background.jpg);
 
+        }
+
+        .jumbotron {
+            background: #1B2631;
+            color: white;
+            font-family: 'Patrick Hand', cursive;
+        }
+
+        .btn {
+            background: white;
+            color: #1B2631;
+            width: 18rem;
+
+
+        }
+
+        a:focus,
+        a:hover {
+            color: slategrey;
+        }
+
+        .container {
+            background: rgb(62, 63, 67, 75%);
+            color: white;
+            font-family: 'Patrick Hand', cursive;
+            font-size: 4rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,9 +58,9 @@
         <h2>Survey Questions</h2>
         <hr>
 
-        <h3>
+        <h4>
             <strong>About You</strong>
-        </h3>
+        </h4>
         <h4>Name (Required)</h4>
         <input type="text" id="name" class="form-control" required>
 
@@ -37,9 +69,9 @@
 
         <hr>
 
-        <h3>
+        <h4>
             <strong>Question 1</strong>
-        </h3>
+        </h4>
         <h4>I make friends easily</h4>
         <select class="chosen-select" id="q1">
             <option value=""></option>
@@ -50,9 +82,9 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>
+        <h4>
             <strong>Question 2</strong>
-        </h3>
+        </h4>
         <h4>I don't like things to be a mess - I like to tidy up</h4>
         <select class="chosen-select" id="q2">
             <option value=""></option>
@@ -64,9 +96,9 @@
         </select>
 
 
-        <h3>
+        <h4>
             <strong>Question 3</strong>
-        </h3>
+        </h4>
         <h4>I love a good argument - a good fight</h4>
         <select class="chosen-select" id="q3">
             <option value=""></option>
@@ -78,9 +110,9 @@
         </select>
 
 
-        <h3>
+        <h4>
             <strong>Question 4</strong>
-        </h3>
+        </h4>
         <h4>I tend to support political candidates who favour progress and reform</h4>
         <select class="chosen-select" id="q4">
             <option value=""></option>
@@ -92,10 +124,10 @@
         </select>
 
 
-        <h3>
+        <h4>
             <strong>Question 5</strong>
-        </h3>
-        <h4>38.I see beauty in things that others might not notice</h4>
+        </h4>
+        <h4>I see beauty in things that others might not notice</h4>
         <select class="chosen-select" id="q5">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -106,9 +138,9 @@
         </select>
 
 
-        <h3>
+        <h4>
             <strong>Question 6</strong>
-        </h3>
+        </h4>
         <h4>I prefer to stick with things that I know</h4>
         <select class="chosen-select" id="q6">
             <option value=""></option>
@@ -120,9 +152,9 @@
         </select>
 
 
-        <h3>
+        <h4>
             <strong>Question 7</strong>
-        </h3>
+        </h4>
         <h4>I love to daydream</h4>
         <select class="chosen-select" id="q7">
             <option value=""></option>
@@ -133,9 +165,9 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>
+        <h4>
             <strong>Question 8</strong>
-        </h3>
+        </h4>
         <h4>I am indifferent to the feelings of others</h4>
         <select class="chosen-select" id="q8">
             <option value=""></option>
@@ -146,9 +178,9 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>
+        <h4>
             <strong>Question 9</strong>
-        </h3>
+        </h4>
         <h4>I am attached to conventional ways</h4>
         <select class="chosen-select" id="q9">
             <option value=""></option>
@@ -159,9 +191,9 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3>
+        <h4>
             <strong>Question 10</strong>
-        </h3>
+        </h4>
         <h4>I look at the bright side of life</h4>
         <select class="chosen-select" id="q10">
             <option value=""></option>
@@ -183,10 +215,10 @@
         <hr>
         <footer class="footer">
             <div class="container">
-                <p>
+                <h4>
                     <a href="/api/friends">API Friends List</a> |
                     <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a>
-                </p>
+                </h4>
             </div>
         </footer>
 
